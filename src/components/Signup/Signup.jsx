@@ -6,7 +6,7 @@ const Signup = () => {
   return (
     <>
   <div className='sign'>
-  <h1>Create your PopX account</h1>
+  <h1>Create your <br/> PopX account</h1>
     <div className="container">
       <div className="entryarea">
         <input type="text" required placeholder='Enter Full name'/>
@@ -35,23 +35,16 @@ const Signup = () => {
 
     <div className="radiocontainer">
     <div> Are you an Agency?</div>
-      <input
-        type="radio"
-        name="yes"
-        id="yes"
-        value="yes"
-        checked="checked"
-      />
-      <span>Yes</span>
-      
-      <input
-        type="radio"
-        name="no"
-        id="no"
-        value="no"
-        
-      />
-      <span>No</span>
+    <div className='wrap-radio'>
+        <div class="wrapper-class">
+          <input type="radio" id="yes" />
+          <label for="yes">Yes</label>
+        </div>
+        <div class="wrapper-class">
+          <input type="radio" id="no" />
+          <label for="no">No</label>
+        </div>
+        </div>
     </div>
     
 

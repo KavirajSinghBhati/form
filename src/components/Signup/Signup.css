@@ -72,7 +72,7 @@ input {
 
     font: normal normal medium 16px/17px 'Rubik';
     background: #6C25FF 0% 0% no-repeat padding-box;
-    margin-top: 50px;
+    margin-top: 80px;
     padding: 10px 10px;
     margin-left: 10px;
     border-radius: 6px;
@@ -81,4 +81,23 @@ input {
     opacity: 1;
     cursor: pointer;
     border: none;
+}
+
+.wrap-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-class input[type="radio"] {
+    width: 15px;
+    margin-top: -10px;
+}
+  
+.wrapper-class label {
+    display: inline;
+}
+
+.sign h1 {
+    line-height: 1.5;
 }
